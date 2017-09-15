@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040939AE1F6BE3CC0009CF3D /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 040939AD1F6BE3A90009CF3D /* GoogLeNetPlaces.mlmodel */; };
+		04225F841F6BD4E400A0040A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0468EEE71F6BCC790081653C /* Main.storyboard */; };
 		0468EEE41F6BCC790081653C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468EEE31F6BCC790081653C /* AppDelegate.swift */; };
 		0468EEE61F6BCC790081653C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468EEE51F6BCC790081653C /* ViewController.swift */; };
-		0468EEE91F6BCC790081653C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0468EEE71F6BCC790081653C /* Main.storyboard */; };
 		0468EEEB1F6BCC790081653C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0468EEEA1F6BCC790081653C /* Assets.xcassets */; };
 		0468EEEE1F6BCC790081653C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0468EEEC1F6BCC790081653C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040939AD1F6BE3A90009CF3D /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		0468EEE01F6BCC790081653C /* udeCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udeCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0468EEE31F6BCC790081653C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0468EEE51F6BCC790081653C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				0468EEE31F6BCC790081653C /* AppDelegate.swift */,
 				0468EEE51F6BCC790081653C /* ViewController.swift */,
 				0468EEE71F6BCC790081653C /* Main.storyboard */,
+				040939AD1F6BE3A90009CF3D /* GoogLeNetPlaces.mlmodel */,
 				0468EEEA1F6BCC790081653C /* Assets.xcassets */,
 				0468EEEC1F6BCC790081653C /* LaunchScreen.storyboard */,
 				0468EEEF1F6BCC790081653C /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					0468EEDF1F6BCC790081653C = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V7466QEVQE;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +127,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04225F841F6BD4E400A0040A /* Main.storyboard in Resources */,
 				0468EEEE1F6BCC790081653C /* LaunchScreen.storyboard in Resources */,
 				0468EEEB1F6BCC790081653C /* Assets.xcassets in Resources */,
-				0468EEE91F6BCC790081653C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +142,7 @@
 			files = (
 				0468EEE61F6BCC790081653C /* ViewController.swift in Sources */,
 				0468EEE41F6BCC790081653C /* AppDelegate.swift in Sources */,
+				040939AE1F6BE3CC0009CF3D /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +267,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7466QEVQE;
 				INFOPLIST_FILE = udeCoreML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.chang.udeCoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +281,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7466QEVQE;
 				INFOPLIST_FILE = udeCoreML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.chang.udeCoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +310,7 @@
 				0468EEF41F6BCC790081653C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
